@@ -16,13 +16,13 @@ html,body{height: 100%;
         
         /* First Image (logo. Full height) */
             .urbA {
-                background-image: url('docs/assets/images/urbanAerial.png');
+                background-image: url('../images/urbanAerial.png');
                 min-height: 100%;
             }
             
         /* Second image (Portfolio) */
             .spirit {
-                background-image: url('docs/assets/images/spirit.jpg');
+                background-image: url('../images/spirit.jpg');
                 min-height:400px;
             }
        
