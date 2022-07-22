@@ -8,29 +8,29 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='style.css'>
 </head>
-<body id="myPage">
+<body>
 
 <!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+ <a href="https://www.epa.gov/heatislands/heat-island-community-actions-database" target="blank_" class="w3-button w3-block w3-left-align">EPA - heat island community action database</a>
+  <a href="https://gazette.com/news/southeast-colorado-springs-an-urban-heat-island-city-seeks-solutions/article_8210e3de-fecd-11eb-9574-430e6f0826b8.html" target="blank_" class="w3-button w3-block w3-left-align">Southeast Colorado Springs: An urban heat island, city seeks solutions - Shin, M. 2021</a>
+  <a href="https://onlinelibrary-wiley-com.libproxy.uccs.edu/doi/full/10.1111/jiec.12980" target="blank_" class="w3-button w3-block w3-left-align">Heat island effects in urban life cycle assessment - Susca and Pomponi. 2021</a>
+  <a href="https://www.koaa.com/news/national-world-news/two-americas/local-business-wants-to-tackle-heat-concerns-in-southeast-colorado-springs#:~:text=Neighborhoods%20in%20downtown%20and%20southeast,hotter%20temperatures%20than%20other%20areas" target="blank_" class="w3-button w3-block w3-left-align">Local business works to tackle heat concerns in Colorado Springs 2021 - Zimmerman, A. 2021</a>
 </nav>
 
 <!-- Navbar -->
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Our Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Join</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
@@ -52,15 +52,17 @@
     <a href="#" class="w3-bar-item w3-button">Search</a>
   </div>
 </div>
+<!--
 
-<!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+ Image Header 
+<div class=".urbA w3-display-container w3-animate-opacity">
+  <img class = ".urdA" src="urbanAerial.png" alt="urban space" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom w3-xlarge w3-wide w3=animate-opacity">  
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Movement Title</button>
   </div>
 </div>
-
+-->
+      
 <!-- Modal -->
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
@@ -68,7 +70,7 @@
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
       <h4>Oh snap! We just showed you a modal..</h4>
       <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
+    </header>s
     <div class="w3-container">
       <p>Cool huh? Ok, enough teasing around..</p>
       <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
@@ -79,10 +81,21 @@
   </div>
 </div>
 
+<!-- first parallax img w Logo Text -->
+            <div class='urbA w3-display-container w3-opacity-min' id='home'>
+                <div class='w3-display-bottomleft' style='white-space:nowrap;'>
+                    <span class='w3-center w3-padding-large w3-xlarge w3-wide w3=animate-opacity'>URBAN HEAT ISLAND AWARENESS MOVEMENT</span>
+                </div>
+            </div>
+    
+<div class='w3-display-contrainer' id='about'>
+    <iframe width='100%' height="750px" src=https://tyeingram.users.earthengine.app/view/uhidenverexplorer frameborder="1" scrolling="no"></iframe>
+</div>
+
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
 <h2>OUR TEAM</h2>
-<p>Meet the team - our office rats:</p>
+<p>Meet the team</p>
 
 <div class="w3-row"><br>
 
@@ -117,7 +130,7 @@
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
 <div class="w3-quarter">
-<h2>Our Work</h2>
+<h2>The Movement</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
@@ -164,6 +177,32 @@
 </div>
 
 </div>
+    
+<hr>
+<h2 class="w3-center">Explore Our Work</h2>
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Deeper Analysis</button>
+<div id="Demo1" class="w3-hide">
+  <div class="w3-container">
+    <iframe
+        width='100%' height="750px" src="https://ges-gislab.maps.arcgis.com/apps/webappviewer/index.html?id=cd729eb0828c4ae38388abc0f4ce8dd6" frameborder="0" scrolling="no">
+      </iframe>
+    </div>
+</div>
+<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Research Sources</button>
+<div id="Demo2" class="w3-hide">
+  <a href="https://www.epa.gov/heatislands/heat-island-community-actions-database" target="blank_" class="w3-button w3-block w3-left-align">EPA - heat island community action database</a>
+  <a href="https://gazette.com/news/southeast-colorado-springs-an-urban-heat-island-city-seeks-solutions/article_8210e3de-fecd-11eb-9574-430e6f0826b8.html" target="blank_" class="w3-button w3-block w3-left-align">Southeast Colorado Springs: An urban heat island, city seeks solutions - Shin, M. 2021</a>
+  <a href="https://onlinelibrary-wiley-com.libproxy.uccs.edu/doi/full/10.1111/jiec.12980" target="blank_" class="w3-button w3-block w3-left-align">Heat island effects in urban life cycle assessment - Susca and Pomponi. 2021</a>
+  <a href="https://www.koaa.com/news/national-world-news/two-americas/local-business-wants-to-tackle-heat-concerns-in-southeast-colorado-springs#:~:text=Neighborhoods%20in%20downtown%20and%20southeast,hotter%20temperatures%20than%20other%20areas" target="blank_" class="w3-button w3-block w3-left-align">Local business works to tackle heat concerns in Colorado Springs 2021 - Zimmerman, A. 2021</a>
+</div>
+<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Community Outreach</button>
+<div id="Demo3" class="w3-hide w3-black">
+  <div class="w3-container">
+    <p>Accordion with Images:</p>
+    <img src="img_snowtops.jpg" style="width:30%;" class="w3-animate-zoom">
+    <p>French Alps</p>
+  </div>
+</div>
 
 <!-- Container -->
 <div class="w3-container" style="position:relative">
@@ -178,7 +217,7 @@
       <div class="w3-row-padding w3-center">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-              <p contenteditable="true" class="w3-border w3-padding">e-Sign to curb UHIs</p>
+              <p contenteditable="true" class="w3-border w3-padding">e-Sign to support the prevention of UHIs</p>
               <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
             </div>
           </div>
@@ -233,9 +272,9 @@
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
       <h3>Address</h3>
       <p>Swing by for a cup of coffee, or whatever.</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Colorado Springs, US</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +1 210-552-3320</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  tingram2@uccs.edu</p>
     </div>
     <div class="w3-col m7">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
@@ -260,8 +299,13 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
-
+<div class='.spirit w3-display-container w3-opacity-min'>
+<!--
+                <div class='w3-display-middle' style='white-space:nowrap;'>
+                    <span class='w3-center w3-padding-large w3-black w3-xlarge w3-wide w3=animate-opacity'>ART AND ANALYSIS</span>
+                </div>
+-->
+</div>
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
   <h4>Follow Us</h4>
@@ -302,6 +346,17 @@ function openNav() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+    
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
 </script>
 
 </body>
